@@ -1,10 +1,14 @@
 class Practice {
   public static void main (String[] args) {
-    int age = 19;
-    System.out.println("年齢は" + age);
-    age = 20;
-    System.out.println("本当は…" + age);
-    age = 21;
-    System.out.println("いやもっと本当は…" + age);
+    // int a = 3;
+    // int b = 5;
+    // int c = a * b;
+    // System.out.println("縦幅3横幅5の長方形の面積は," + c);
+    
+    boolean anser = true;
+    char name = '駆';
+    double pi = 3.14;
+    long water = 314259265853979L;
+    String msg = "ミナトの攻撃！敵に１５ポイントのダメージを与えた！";
   }
 }

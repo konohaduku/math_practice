@@ -52,10 +52,15 @@ class Practice {
     // System.out.println("今回は" + r + "位だった");
     
     //キーボードから入力を受け付ける
-    System.out.println("プレイヤーネームを入力してください");
-    String name = new java.util.Scanner(System.in).nextLine();
-    System.out.println("プレイヤーの年齢を入力してください");
-    int age = new java.util.Scanner(System.in).nextInt();
-    System.out.println(name + "さんは" + age + "歳で登録されました");
+    // System.out.println("プレイヤーネームを入力してください");
+    // String name = new java.util.Scanner(System.in).nextLine();
+    // System.out.println("プレイヤーの年齢を入力してください");
+    // int age = new java.util.Scanner(System.in).nextInt();
+    // System.out.println(name + "さんは" + age + "歳で登録されました");
+    
+    int x = 5;
+    int y = 10;
+    String ans = "x+yは" + (x + y);
+    System.out.println(ans);
   }
 }

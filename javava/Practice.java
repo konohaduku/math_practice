@@ -58,9 +58,21 @@ class Practice {
     // int age = new java.util.Scanner(System.in).nextInt();
     // System.out.println(name + "さんは" + age + "歳で登録されました");
     
-    int x = 5;
-    int y = 10;
-    String ans = "x+yは" + (x + y);
-    System.out.println(ans);
+    // int x = 5;
+    // int y = 10;
+    // String ans = "x+yは" + (x + y);
+    // System.out.println(ans);
+    
+    System.out.println("ようこそ占いの館へ");
+    System.out.println("あなたの名前を入力して下さい");
+    String name = new java.util.Scanner(System.in).nextLine();
+    System.out.println("あなたの年齢を入力してください");
+    String age = new java.util.Scanner(System.in).nextLine();
+    int n = Integer.parseInt(age);
+    int fortune = new java.util.Random().nextInt(4);
+    fortune++;
+    System.out.println("占いの結果が出ました！");
+    System.out.println(age + "歳の" + name + "さん、あなたの運気番号は" + fortune +"です");
+    System.out.println("1:大吉 2:中吉 3:小吉 4:凶");
   }
 }

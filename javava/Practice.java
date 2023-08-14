@@ -84,6 +84,25 @@ class Practice {
     //   System.out.println("DVDを見ます");
     // }
     
+    //波括弧は省略しない（一文だけなら可能だが）
     
+    //文字列は＝＝で比較できない
+    // if (str == "夕日")　×
+    // if (str.equals("夕日")) ◯
+    
+    System.out.println("あなたの運勢");
+    int fortune = new java.util.Random().nextInt(5) + 1;
+    switch (fortune) {
+      case 1:
+      case 2:
+        System.out.println("いいね！");
+        break;
+      case 3:
+        System.out.println("普通です");
+        break;
+      case 4:
+      case 5:
+        System.out.println("うーん……");
+    }
   }
 }

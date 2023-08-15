@@ -90,19 +90,19 @@ class Practice {
     // if (str == "夕日")　×
     // if (str.equals("夕日")) ◯
     
-    System.out.println("あなたの運勢");
-    int fortune = new java.util.Random().nextInt(5) + 1;
-    switch (fortune) {
-      case 1:
-      case 2:
-        System.out.println("いいね！");
-        break;
-      case 3:
-        System.out.println("普通です");
-        break;
-      case 4:
-      case 5:
-        System.out.println("うーん……");
+    // System.out.println("あなたの運勢");
+    // int fortune = new java.util.Random().nextInt(5) + 1;
+    // switch (fortune) {
+    //   case 1:
+    //   case 2:
+    //     System.out.println("いいね！");
+    //     break;
+    //   case 3:
+    //     System.out.println("普通です");
+    //     break;
+    //   case 4:
+    //   case 5:
+    //     System.out.println("うーん……");
     }
   }
 }

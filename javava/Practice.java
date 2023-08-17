@@ -46,23 +46,23 @@ class Practice {
     // int b = 2;
     // int c = Math.max(a,b);
     // System.out.println("比較：" + a + "と" + b + "で大きい方は" + c);
-    
+
     //ランダムな数の生成
     // int r = new java.util.Random().nextInt(90);
     // System.out.println("今回は" + r + "位だった");
-    
+
     //キーボードから入力を受け付ける
     // System.out.println("プレイヤーネームを入力してください");
     // String name = new java.util.Scanner(System.in).nextLine();
     // System.out.println("プレイヤーの年齢を入力してください");
     // int age = new java.util.Scanner(System.in).nextInt();
     // System.out.println(name + "さんは" + age + "歳で登録されました");
-    
+
     // int x = 5;
     // int y = 10;
     // String ans = "x+yは" + (x + y);
     // System.out.println(ans);
-    
+
     // System.out.println("ようこそ占いの館へ");
     // System.out.println("あなたの名前を入力して下さい");
     // String name = new java.util.Scanner(System.in).nextLine();
@@ -74,7 +74,7 @@ class Practice {
     // System.out.println("占いの結果が出ました！");
     // System.out.println(age + "歳の" + name + "さん、あなたの運気番号は" + fortune +"です");
     // System.out.println("1:大吉 2:中吉 3:小吉 4:凶");
-    
+
     //条件分岐
     // boolean tenki = true;
     // if (tenki == true){
@@ -83,13 +83,13 @@ class Practice {
     // }else{
     //   System.out.println("DVDを見ます");
     // }
-    
+
     //波括弧は省略しない（一文だけなら可能だが）
-    
+
     //文字列は＝＝で比較できない
     // if (str == "夕日")　×
     // if (str.equals("夕日")) ◯
-    
+
     // System.out.println("あなたの運勢");
     // int fortune = new java.util.Random().nextInt(5) + 1;
     // switch (fortune) {
@@ -103,6 +103,19 @@ class Practice {
     //   case 4:
     //   case 5:
     //     System.out.println("うーん……");
+    // }
+
+    //for文の基本形
+    // for(int i = 0; i < 10; i++){……
+    // }
+
+    // for(int i = 0; i < 9; i++){
+    //   System.out.println("こんにちは");
+    // }
+    for (int i = 0; i < 10;){
+      System.out.println("こんにちは");
     }
+
+
   }
 }

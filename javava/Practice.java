@@ -112,10 +112,23 @@ class Practice {
     // for(int i = 0; i < 9; i++){
     //   System.out.println("こんにちは");
     // }
-    for (int i = 0; i < 10;){
-      System.out.println("こんにちは");
-    }
-
-
+    
+    //infinity
+    // for (int i = 0; i < 10;){
+    //   System.out.println("こんにちは");
+    // }
+    
+    //制御構造　掛け算の繰り返し
+    // for (int i = 1; i < 10; i++){
+    //   for (int j = 1; j < 10; j++){
+    //     System.out.println(i * j);
+    //     System.out.println(" ");
+    //   }
+    //   System.out.println("");
+    // }
+    
+    //無限
+    // while (true) {処理}
+    // for (;;) {処理}
   }
 }

@@ -130,5 +130,12 @@ class Practice {
     //無限
     // while (true) {処理}
     // for (;;) {処理}
+    
+  //   weight == 60　weoghtと60が等しい
+  // (age1 + age2)* 2 > 60　合計を二倍したものが60を超えている
+  // age % 2 == 1　ageが奇数
+  // name.equals("湊")　nameが湊と等しい
+  
+  
   }
 }

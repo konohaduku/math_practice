@@ -112,12 +112,12 @@ class Practice {
     // for(int i = 0; i < 9; i++){
     //   System.out.println("こんにちは");
     // }
-    
+
     //infinity
     // for (int i = 0; i < 10;){
     //   System.out.println("こんにちは");
     // }
-    
+
     //制御構造　掛け算の繰り返し
     // for (int i = 1; i < 10; i++){
     //   for (int j = 1; j < 10; j++){
@@ -126,16 +126,24 @@ class Practice {
     //   }
     //   System.out.println("");
     // }
-    
+
     //無限
     // while (true) {処理}
     // for (;;) {処理}
-    
+
   //   weight == 60　weoghtと60が等しい
   // (age1 + age2)* 2 > 60　合計を二倍したものが60を超えている
   // age % 2 == 1　ageが奇数
   // name.equals("湊")　nameが湊と等しい
-  
+
+  // int isHungry = 1;
+  // String food = "ペプシ";
+  // System.out.println("こんにちは");
+  // System.out.println(isHungry == 0 ? "お腹いっぱいです" : "腹ペコです");
+  // if (isHungry == 1){
+  //   System.out.println(food + "をいただきます");
+  // }
+  //   System.out.println("ごちそうさまでした");
   
   }
 }

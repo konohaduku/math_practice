@@ -144,6 +144,35 @@ class Practice {
   //   System.out.println(food + "をいただきます");
   // }
   //   System.out.println("ごちそうさまでした");
+
+  // System.out.print("[メニュー]1:検索 2:登録 3:削除 4:変更>");
+  // int selected = new java.util.Scanner(System.in).nextInt();
+  // switch (selected){
+  //   case 1:
+  //     System.out.println("検索します");
+  //     break;
+  //   case 2:
+  //     System.out.println("登録します");
+  //     break;
+  //   case 3:
+  //     System.out.println("削除します");
+  //     break;
+  //   case 4:
+  //     System.out.println("変更します");
+  //     break;
+  // }
+  
+  //配列の宣言（intの場合）
+  //int[] scores = new int [5];
+  
+  //配列の長さを調べる
+  // int num = scores.length;
+  
+  //配列の代入
+  // int[] scores = new int [5];
+  // scores [1] = 30;
+  // System.out.println(scores[1]);
+  
   
   }
 }

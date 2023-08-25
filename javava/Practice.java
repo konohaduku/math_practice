@@ -161,29 +161,29 @@ class Practice {
   //     System.out.println("変更します");
   //     break;
   // }
-  
+
   //配列の宣言（intの場合）
   //int[] scores = new int [5];
-  
+
   //配列の長さを調べる
   // int num = scores.length;
-  
+
   //配列の代入
   // int[] scores = new int [5];
   // scores [1] = 30;
   // System.out.println(scores[1]);
-  
+
   // int [] scores = {20, 30, 40, 50, 80};
-  // int sum =scores[0] + scores[1] + scores[2] + scores[3] + scores[4]; 
+  // int sum =scores[0] + scores[1] + scores[2] + scores[3] + scores[4];
   // int avg = sum / scores.length;
   // System.out.println("合計点:" + sum);
   // System.out.println("平均点:" + avg);
-  
+
   //for文
   // int [] scores = {20, 30, 40, 50};
   // for (int i = 0; i < scores.length; i++) {
   //   System.out.println(scores[i]);
-  
+
   // int [] scores = {20, 30, 40, 50, 80};
   // int sum = 0;
   // for (int i = 0; i < scores.length; i++) {
@@ -192,15 +192,21 @@ class Practice {
   // int avg = sum / scores.length;
   // System.out.println("合計点:" + sum);
   // System.out.println("平均点:" + avg);
-  
+
   //特定の要素を調べる
-  int [] scores = {20, 30, 40, 50, 80};
-  int count = 0;
-  for (int i = 0; i < scores.length; i++){
-  if (scores[i] >=50){
-    count++;
+  // int [] scores = {20, 30, 40, 50, 80};
+  // int count = 0;
+  // for (int i = 0; i < scores.length; i++){
+  // if (scores[i] >=50){
+  //   count++;
+  // }
+  // }
+  // System.out.println("50点以上の科目の数は:" + count);
+
+  //拡張for文
+  int[] scores = {20, 39, 45, 55, 80};
+  for (int value : scores) {
+    System.out.println(value);
   }
-  }
-  System.out.println("50点以上の科目の数は:" + count);
   }
 }

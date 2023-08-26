@@ -204,9 +204,14 @@ class Practice {
   // System.out.println("50点以上の科目の数は:" + count);
 
   //拡張for文
-  int[] scores = {20, 39, 45, 55, 80};
-  for (int value : scores) {
-    System.out.println(value);
+  // int[] scores = {20, 39, 45, 55, 80};
+  // for (int value : scores) {
+  //   System.out.println(value);
+  // }
+  
+  boolean judge = true;
+  if (judge == true) {
+    int[] array = {1, 2, 3}; //省略記法
   }
   }
 }

@@ -209,9 +209,14 @@ class Practice {
   //   System.out.println(value);
   // }
   
-  boolean judge = true;
-  if (judge == true) {
-    int[] array = {1, 2, 3}; //省略記法
-  }
+  // boolean judge = true;
+  // if (judge == true) {
+  //   int[] array = {1, 2, 3}; //省略記法
+  // }
+  
+  //nullのエラー
+  int[] array = {1, 2, 3};
+  array = null;
+  array[0] = 10; 
   }
 }

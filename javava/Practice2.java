@@ -23,6 +23,7 @@ class Practice2 {
 // public static void hello() {
 //   System.out.println("湊、こんにちは"); //helloメソッド
 
+　// 引数（渡す値が単数）
   // System.out.println("メソッドを呼び出します");
   // hello("湊");
   // hello("遥");
@@ -32,11 +33,14 @@ class Practice2 {
   // public static void hello (String name){
   //   System.out.println(name + "さん、こんにちは");
   
-  add(100, 20);
-  add(200, 10);
-  }
-  public static void add (int x, int y){
-    int ans = x + y;
-    System.out.println(x + "+" + y + "=" + ans);
+  // 引数（渡す値が複数）
+  // add(100, 20);
+  // add(200, 10);
+  // }
+  // public static void add (int x, int y){
+  //   int ans = x + y;
+  //   System.out.println(x + "+" + y + "=" + ans);
+  
+  
   }
  }
